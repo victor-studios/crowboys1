@@ -1,0 +1,16 @@
+.banner__thumb{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+
+}
+.stacking__approve {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(2 18 29 / 0%);
+  }
