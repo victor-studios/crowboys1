@@ -2011,7 +2011,7 @@ ol {
     -ms-transform: scaleY(0);
     transform: scaleY(0);
     transform-origin: top;
-    background: rgba(10, 31, 47, 0.98);
+    background: #39160e;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }
@@ -6173,7 +6173,7 @@ ol {
   top: 0;
   left: 0;
   z-index: 9999;
-  background: #02121D;
+  background-image: url(bgm.png);
 }
 
 .preloader__inner {
@@ -6187,15 +6187,17 @@ ol {
 }
 
 .preloader__icon {
-  width: 72px;
-  height: 72px;
-  display: inline-block;
+  width: 80px;
+  height: 80px;
+  display: inline;
   padding: 0px;
 }
 
 .preloader__icon span {
-  width: 72px;
-  height: 72px;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
   background: #C3976A;
   -webkit-animation: preloader-fx 1.6s linear infinite;
